@@ -1,0 +1,29 @@
+*.psql_history
+.lightning_studio
+*docker-compose.yml
+*\.env
+*\__pycache__
+.vscode
+# Environment & Secrets
+.env
+.env.local
+
+# Python
+*__pycache__/
+*.egg-info/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Database & Cache
+*.db
+*.sqlite
+*chroma_db/
+
+# HuggingFace Models
+.cache/
+
+# Logs
+*.log

@@ -49,7 +49,7 @@ class VoiceService:
                 "ig": "ig",  # Igbo
             }
             
-            gtts_lang = language_map.get(language, "en")
+            gtts_lang = language_map.get(language)
             
             # Generate speech
             tts = gTTS(text=text, lang=gtts_lang, slow=False)
